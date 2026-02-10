@@ -11,14 +11,22 @@ public class Main {
         Deck stapel = new Deck();
         stapel.mischen();
 
-        Player ich = new Player("Ich", 1000);
-        Player cpu = new Player("Bot", 1000);
-
-                                                                                    // 2. Jeder kriegt 2 Karten
-        ich.karteNehmen(stapel.ziehen());
-        cpu.karteNehmen(stapel.ziehen());
-        ich.karteNehmen(stapel.ziehen());
-        cpu.karteNehmen(stapel.ziehen());
+        Player[] players = new Player[2];
+        // nur nicht als array sondern zyklische Linked List
+        
+        players[0] = new Player("me", 1000); 
+        players[1] = new Player("bot", 1000);
+        
+        for (Player player : players) {
+            player.karteNehmen(staphel.ziehen());
+            player.karteNehmen(staphel.ziehen());
+        }
+		// je nach dem wie das backend funktioniert auch so:
+		for (int i = 0; i < players.length; i++) {
+			Player player = players[i];
+			player.karteNehmen(staphel.ziehen());
+            player.karteNehmen(staphel.ziehen());
+		}
                                                                                     // 3. Tisch vorbereiten 
         Cards[] tischKarten = new Cards[5];
         for(int i = 0; i < 5; i++) {
