@@ -3,20 +3,15 @@
 A terminal-based Poker simulation written in Java/C++.
 Currently in active development.
 
-## 🚀 Features
+##  Features
 - Fully playable Texas Hold'em logic via Terminal User Interface (TUI).
 - Object-Oriented Design (OOP) for Cards, Decks, and Players.
 - Custom Hand-Evaluation Algorithm.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language:** C++
 - **Original Prototype:** Java (ported to C++)
 - **Tools:** [Dein Compiler, z.B. GCC / Clang], CMake (falls genutzt)
 
-## 📸 Screenshot
-[Hier unbedingt ein Bild einfügen! Mach einen Screenshot von deinem Terminal, während das Spiel läuft, und lade es hoch. Das Auge isst mit!]
-
-## 💻 How to Run
-```bash
-g++ -o poker main.cpp ... (Dein Kompilier-Befehl hier)
-./poker
+##  Screenshot
+<img width="749" height="788" alt="image" src="https://github.com/user-attachments/assets/73c19310-2d0e-4461-a1f2-b521fda689d7" />
