@@ -2,11 +2,7 @@
 
 # 🃏 Poker-TUI
 
-**Eine minimalistische, terminal-basierte Texas Hold'em Poker-Erfahrung.**
-
-![Status](https://img.shields.io/badge/Status-Work__in__Progress-orange?style=for-the-badge)
-![Terminal](https://img.shields.io/badge/Interface-CLI%20%2F%20TUI-black?style=for-the-badge&logo=gnu-bash)
-![Open Source](https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge)
+**Eine Terminalbasierte Möglichkeit bei der Arbeit Zeit zu verschwenden, oder Java zu lernen.**
 
 </div>
 
@@ -23,16 +19,17 @@
 > 💡 **Platzhalter für deinen Screenshot:**
 > Mach einen Screenshot (oder ein GIF) von deinem aktuellen Terminal-Fenster und binde ihn hier ein, sobald du einen ersten Prototyp hast!
 > 
-> `![Poker-TUI Preview](link_zu_deinem_bild.png)`
+<img width="737" height="846" alt="image" src="https://github.com/user-attachments/assets/705bb067-a9f2-45d1-99d4-211daa26a971" />
+
 
 ## 🗺️ Roadmap & Status
 
 Hier siehst du, woran aktuell gearbeitet wird:
 
-- [x] Projekt-Setup & grundlegendes Terminal-UI
-- [ ] Implementierung der Kartendeck-Logik (Mischen & Austeilen)
-- [ ] Hand-Evaluator (Ermittlung des Gewinner-Blatts)
+- [X] Projekt-Setup & grundlegendes Terminal-UI
+- [X] Implementierung der Kartendeck-Logik (Mischen & Austeilen)
+- [X] Hand-Evaluator (Ermittlung des Gewinner-Blatts)
 - [ ] Setz-System (Bet, Call, Raise, Fold)
-- [ ] Bot-Gegner (Einfache KI)
+- [X] Bot-Gegner (Einfache KI)
 - [ ] ASCII-Art für die Spielkarten aufhübschen
 
