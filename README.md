@@ -1,18 +1,38 @@
-# Poker TUI (Texas Hold'em) ♠️♥️
+<div align="center">
 
-A terminal-based Poker simulation written in Java/C++.
-Currently in active development.
+# 🃏 Poker-TUI
 
-##  Features
-- Fully playable Texas Hold'em logic via Terminal User Interface (TUI).
-- Object-Oriented Design (OOP) for Cards, Decks, and Players.
-- Custom Hand-Evaluation Algorithm.
+**Eine minimalistische, terminal-basierte Texas Hold'em Poker-Erfahrung.**
 
-##  Tech Stack
-- **Language:** C++
-- **Original Prototype:** Java (ported to C++)
-- **Tools:** [Dein Compiler, z.B. GCC / Clang], CMake (falls genutzt)
+![Status](https://img.shields.io/badge/Status-Work__in__Progress-orange?style=for-the-badge)
+![Terminal](https://img.shields.io/badge/Interface-CLI%20%2F%20TUI-black?style=for-the-badge&logo=gnu-bash)
+![Open Source](https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge)
 
-##  Screenshot
-<img width="749" height="788" alt="image" src="https://github.com/user-attachments/assets/73c19310-2d0e-4461-a1f2-b521fda689d7" />
-<img width="723" height="865" alt="image" src="https://github.com/user-attachments/assets/15bfa742-4a29-4cc2-afac-98f6ba6a3462" />
+</div>
+
+---
+
+## 📖 Über das Projekt
+
+**Poker-TUI** bringt das klassische Texas Hold'em Erlebnis direkt in dein Terminal. Es verzichtet auf überladene Grafiken und fokussiert sich auf eine schnelle, saubere und tastaturgesteuerte Benutzeroberfläche. 
+
+*(Hinweis: Dieses Projekt befindet sich aktuell noch in der Entwicklung. Einige Features sind noch nicht vollständig implementiert.)*
+
+## 📸 Vorschau
+
+> 💡 **Platzhalter für deinen Screenshot:**
+> Mach einen Screenshot (oder ein GIF) von deinem aktuellen Terminal-Fenster und binde ihn hier ein, sobald du einen ersten Prototyp hast!
+> 
+> `![Poker-TUI Preview](link_zu_deinem_bild.png)`
+
+## 🗺️ Roadmap & Status
+
+Hier siehst du, woran aktuell gearbeitet wird:
+
+- [x] Projekt-Setup & grundlegendes Terminal-UI
+- [ ] Implementierung der Kartendeck-Logik (Mischen & Austeilen)
+- [ ] Hand-Evaluator (Ermittlung des Gewinner-Blatts)
+- [ ] Setz-System (Bet, Call, Raise, Fold)
+- [ ] Bot-Gegner (Einfache KI)
+- [ ] ASCII-Art für die Spielkarten aufhübschen
+
